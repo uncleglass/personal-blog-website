@@ -1,0 +1,42 @@
+.main {
+  grid-area: main;
+}
+
+.card {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px dashed #eee;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  background: #eee;
+  border-radius: 17px;
+}
+
+.card__img {
+  max-width: 260px;
+  height: 200px;
+  overflow: hidden;
+  margin: 10px;
+}
+
+.card__img--img {
+  max-width: 260px;
+  vertical-align: bottom;
+}
+
+.card__txt {
+  max-width: 300px;
+  margin: 0 15px;
+}
+
+.card__txt--txt {
+  text-align: justify;
+}
+
+.card__txt--footer {
+  display: flex;
+  justify-content: space-between;
+}

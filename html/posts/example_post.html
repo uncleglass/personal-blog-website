@@ -1,167 +1,263 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link href="../../css/post_page.css" rel="stylesheet" type="text/css" >
-</head>
-
-<body>
-    <header>
-        <p>Blog Title</p>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Archive</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+    <link href="../../css/post_page.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <nav class="header__nav">
+          <ul class="header__nav--list">
+            <li><a href="../../index.html">Home</a></li>
+            <li><a href="#">Archive</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
         </nav>
-    </header>
-
-    <main>  
-          <header>
-                <h1>Post title</h1>
-                <time datetime="2020-05-05 19:00">May 5</time>
-            </header>
-        <aside>
-            <h4>Author info</h4>
-            <ul>
-                <li>Name</li>
-                <li>Title</li>
-                <li>Curent Company</li>
-                <li>Short bio</li>
-                <li>Awatar</li>
-            </ul> 
-        </aside>
+      </header>
+      <aside class="aside">
+        <section class="aside__section author-info">
+          <h3 class="aside__header">Author info</h3>
+          <ul class="aside__list">
+            <li><img src="../../img/kopia2.jpg" /></li>
+            <li>
+              <p><b>Name:</b> Bartłomiej Kiliszek</p>
+            </li>
+            <li>
+              <p><b>Title:</b> Student</p>
+            </li>
+            <li>
+              <p><b>School:</b> Udacity</p>
+            </li>
+            <li>
+              <p>
+                <b>Short bio:</b> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Consequatur, nam ut, cum consectetur vero eius voluptates qui, repellendus animi
+                impedit alias aliquam reiciendis doloribus quod maxime ipsa maiores ratione? Itaque!
+              </p>
+            </li>
+          </ul>
+        </section>
+        <section class="aside__section">
+          <form class="aside__form" action="#" method="get">
+            <input class="aside__form--input" type="text" placeholder="Search" />
+          </form>
+        </section>
+        <section class="aside__section">
+          <h3 class="aside__header">Recent posts</h3>
+          <ul class="aside__list">
+            <li class="aside__list--item">
+              <a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit</a>
+            </li>
+            <li class="aside__list--item">
+              <a href="#">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</a>
+            </li>
+            <li class="aside__list--item">
+              <a href="#">Enim nulla fugit odit dignissimos inventore animi eveniet</a>
+            </li>
+            <li class="aside__list--item">
+              <a href="#">Duis aute irure dolor in reprehenderit in voluptate</a>
+            </li>
+            <li class="aside__list--item aside__list--item-last">
+              <a href="#">Odit dignissimos inventore animi eveniet temporibus</a>
+            </li>
+          </ul>
+        </section>
+        <section class="aside__section">
+          <h3 class="aside__header">Archives</h3>
+          <ul class="aside__list">
+            <li class="aside__list--item"><a href="#">May 2020</a></li>
+            <li class="aside__list--item aside__list--item-last">
+              <a href="#">April 2020 </a>
+            </li>
+          </ul>
+        </section>
+        <section class="aside__section">
+          <h3 class="aside__header">Follow</h3>
+          <ul class="aside__list social-list">
+            <li class="aside__list--social">
+              <a href="#"><img src="../../img/facebook.png" /></a>
+            </li>
+            <li class="aside__list--social">
+              <a href="#"><img src="../../img/twitter.png" /></a>
+            </li>
+            <li class="aside__list--social">
+              <a href="#"><img src="../../img/instagram.png" /></a>
+            </li>
+            <li class="aside__list--social">
+              <a href="#"><img src="../../img/youtube.png" /></a>
+            </li>
+            <li class="aside__list--social">
+              <a href="#"><img src="../../img/linkedin.png" /></a>
+            </li>
+          </ul>
+        </section>
+      </aside>
+      <main class="post">
         <article>
-        
-
-            <section>
-                <h2>Sub title</h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Adipiscing elit duis tristique sollicitudin nibh sit amet commodo.
-                    Adipiscing elit ut aliquam purus sit amet. Maecenas volutpat blandit aliquam etiam erat velit
-                    scelerisque. Tincidunt dui ut ornare lectus sit amet est. Proin libero nunc consequat interdum.
-                    Habitant morbi tristique senectus et netus. Non tellus orci ac auctor augue mauris. In est ante in
-                    nibh mauris. Nisl rhoncus mattis rhoncus urna neque viverra justo nec ultrices. Eu sem integer vitae
-                    justo. Vulputate mi sit amet mauris commodo quis imperdiet massa. Nulla posuere sollicitudin aliquam
-                    ultrices sagittis orci. Ac orci phasellus egestas tellus rutrum tellus pellentesque eu tincidunt.
-                    Iaculis eu non diam phasellus vestibulum. Senectus et netus et malesuada fames ac. Orci sagittis eu
-                    volutpat odio facilisis mauris.
-                </p>
-
-                <p>
-                    Lobortis feugiat vivamus at augue eget arcu. Odio tempor orci dapibus ultrices in iaculis. Urna nec
-                    tincidunt praesent semper feugiat. Velit ut tortor pretium viverra suspendisse potenti. Dictumst
-                    vestibulum rhoncus est pellentesque elit ullamcorper. Nunc mattis enim ut tellus. Pellentesque sit
-                    amet porttitor eget dolor. Habitasse platea dictumst vestibulum rhoncus est pellentesque elit. Ac
-                    turpis egestas maecenas pharetra convallis. Purus semper eget duis at tellus. Sagittis aliquam
-                    malesuada bibendum arcu. Dolor purus non enim praesent elementum facilisis. Suspendisse sed nisi
-                    lacus sed viverra tellus in hac habitasse. Egestas sed sed risus pretium quam vulputate dignissim.
-                    Nulla at volutpat diam ut venenatis tellus in.
-                    <q>
-                        Lacus vel facilisis volutpat est velit. Nisi est sit amet facilisis magna etiam tempor orci eu.
-                    </q>
-                    Malesuada fames ac turpis egestas. Magna eget est lorem ipsum.
-                </p>
-            </section>
-
-            <section>
-                <h2>Sub title</h2>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Adipiscing elit duis tristique sollicitudin nibh sit amet commodo.
-                    Adipiscing elit ut aliquam purus sit amet. Maecenas volutpat blandit aliquam etiam erat velit
-                    scelerisque. Tincidunt dui ut ornare lectus sit amet est. Proin libero nunc consequat interdum.
-                    Habitant morbi tristique senectus et netus. Non tellus orci ac auctor augue mauris. In est ante in
-                    nibh mauris. Nisl rhoncus mattis rhoncus urna neque viverra justo nec ultrices. Eu sem integer vitae
-                    justo. Vulputate mi sit amet mauris commodo quis imperdiet massa. Nulla posuere sollicitudin aliquam
-                    ultrices sagittis orci. Ac orci phasellus egestas tellus rutrum tellus pellentesque eu tincidunt.
-                    Iaculis eu non diam phasellus vestibulum. Senectus et netus et malesuada fames ac. Orci sagittis eu
-                    volutpat odio facilisis mauris.
-                </p>
-
-                <blockquote>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. In ratione debitis eum facere aliquam
-                        commodi sequi quae! At, rem. Suscipit eaque doloribus soluta est dolor esse ipsa inventore neque
-                        reprehenderit. Et netus et malesuada fames ac turpis egestas. Ac orci phasellus egestas tellus
-                        rutrum tellus pellentesque eu tincidunt. Iaculis eu non diam phasellus vestibulum. Senectus et
-                        netus et malesuada fames ac. Orci sagittis eu volutpat odio facilisis mauris.
-                    </p>
-                </blockquote>
-
-                <p>
-                    Lobortis feugiat vivamus at augue eget arcu. Odio tempor orci dapibus ultrices in iaculis. Urna nec
-                    tincidunt praesent semper feugiat. Velit ut tortor pretium viverra suspendisse potenti. Dictumst
-                    vestibulum rhoncus est pellentesque elit ullamcorper. Nunc mattis enim ut tellus. Pellentesque sit
-                    amet porttitor eget dolor. Habitasse platea dictumst vestibulum rhoncus est pellentesque elit. Ac
-                    turpis egestas maecenas pharetra convallis. Purus semper eget duis at tellus. Sagittis aliquam
-                    malesuada bibendum arcu. Dolor purus non enim praesent elementum facilisis. Suspendisse sed nisi
-                    lacus sed viverra tellus in hac habitasse. Egestas sed sed risus pretium quam vulputate dignissim.
-                    Nulla at volutpat diam ut venenatis tellus in. Lacus vel facilisis volutpat est velit. Nisi est sit
-                    amet facilisis magna etiam tempor orci eu. Et netus et malesuada fames ac turpis egestas. Malesuada
-                    fames ac turpis egestas. Magna eget est lorem ipsum.
-                </p>
-            </section>
-
-            <section>
-                <h2>Sub title</h2>
-                <p>
-                    Lorem ipsum <b>dolor sit</b> amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Adipiscing elit duis tristique sollicitudin nibh sit amet commodo.
-                    Adipiscing elit ut aliquam purus sit amet. Maecenas volutpat blandit aliquam etiam erat velit
-                    scelerisque. Tincidunt dui ut ornare lectus sit amet est. Proin libero nunc consequat interdum.
-                    Habitant morbi tristique senectus et netus. Non tellus orci ac auctor augue mauris. In est ante in
-                    nibh mauris. Nisl rhoncus mattis rhoncus urna neque viverra justo nec ultrices. Eu sem integer vitae
-                    justo. Vulputate mi sit amet mauris commodo quis imperdiet massa. Nulla posuere sollicitudin aliquam
-                    ultrices sagittis orci. <strong> orci phasellus egestas tellus rutrum tellus pellentesque eu tincidunt.
-                    Iaculis eu non diam phasellus vestibulum. Senectus et netus et malesuada fames ac.</strong> Orci sagittis eu
-                    volutpat odio facilisis mauris.
-                </p>
-
-                <p>
-                    Lobortis feugiat vivamus at augue eget arcu. Odio tempor orci dapibus ultrices in iaculis. Urna nec
-                    tincidunt praesent semper feugiat. Velit ut tortor pretium viverra suspendisse potenti. Dictumst
-                    vestibulum rhoncus est pellentesque elit ullamcorper. <em> mattis enim ut tellus. Pellentesque sit
-                    amet porttitor eget dolor. Habitasse platea dictumst vestibulum rhoncus est pellentesque elit. Ac
-                    turpis egestas maecenas pharetra convallis. Purus semper eget duis at tellus. </em> aliquam
-                    malesuada bibendum arcu. Dolor purus non enim praesent elementum facilisis. Suspendisse sed nisi
-                    lacus sed viverra tellus in hac habitasse. Egestas sed sed risus pretium quam vulputate dignissim.
-                    Nulla at volutpat diam ut venenatis tellus in. Lacus vel facilisis volutpat est velit. Nisi est sit
-                    amet facilisis magna etiam tempor orci eu. Malesuada fames ac turpis egestas. Magna eget est lorem
-                    ipsum.
-                </p>
-
-                <p>
-                    Sed viverra tellus in hac habitasse platea. Adipiscing enim eu turpis egestas pretium aenean
-                    pharetra. Etiam sit amet nisl purus in mollis. Fringilla ut morbi tincidunt augue interdum velit
-                    euismod in pellentesque. Ipsum dolor sit amet consectetur. Et malesuada fames ac turpis. Tellus
-                    elementum sagittis vitae et. Interdum varius sit amet mattis vulputate enim. Sed augue lacus viverra
-                    vitae congue. Amet commodo nulla facilisi nullam vehicula ipsum a. Malesuada proin libero nunc
-                    consequat. Mattis enim ut tellus elementum sagittis vitae et leo duis. Urna et pharetra pharetra
-                    massa massa ultricies mi quis hendrerit. Sed lectus vestibulum mattis ullamcorper. Condimentum id
-                    venenatis a condimentum vitae. Nisl suscipit adipiscing bibendum est ultricies integer quis. Tempus
-                    egestas sed sed risus. Libero id faucibus nisl tincidunt eget nullam. Neque gravida in fermentum et
-                    sollicitudin ac. Semper eget duis at tellus at urna condimentum. Amet mattis vulputate enim nulla
-                    aliquet porttitor lacus luctus accumsan. Justo donec enim diam vulputate ut pharetra. Felis eget
-                    velit aliquet sagittis. Tellus elementum sagittis vitae et leo duis ut. Sed euismod nisi porta lorem
-                    mollis aliquam. Arcu risus quis varius quam quisque id diam vel. Metus dictum at tempor commodo.
-                    Tempor orci dapibus ultrices in iaculis nunc. Phasellus faucibus scelerisque eleifend donec pretium
-                    vulputate sapien nec sagittis. Cras sed felis eget velit aliquet sagittis id consectetur. Dui
-                    vivamus arcu felis bibendum ut tristique et egestas. Volutpat commodo sed egestas egestas fringilla
-                    phasellus.
-                </p>
-            </section>
+          <h1 class="post__title">Post title</h1>
+          <time datetime="2020-05-05 19:00">May 5</time>
+          <section>
+            <h2>Sub title</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Adipiscing elit duis tristique
+              sollicitudin nibh sit amet commodo. Adipiscing elit ut aliquam purus sit amet.
+              Maecenas volutpat blandit aliquam etiam erat velit scelerisque. Tincidunt dui ut
+              ornare lectus sit amet est. Proin libero nunc consequat interdum. Habitant morbi
+              tristique senectus et netus. Non tellus orci ac auctor augue mauris. In est ante in
+              nibh mauris. Nisl rhoncus mattis rhoncus urna neque viverra justo nec ultrices. Eu sem
+              integer vitae justo. Vulputate mi sit amet mauris commodo quis imperdiet massa. Nulla
+              posuere sollicitudin aliquam ultrices sagittis orci. Ac orci phasellus egestas tellus
+              rutrum tellus pellentesque eu tincidunt. Iaculis eu non diam phasellus vestibulum.
+              Senectus et netus et malesuada fames ac. Orci sagittis eu volutpat odio facilisis
+              mauris.
+            </p>
+            <p>
+              Lobortis feugiat vivamus at augue eget arcu. Odio tempor orci dapibus ultrices in
+              iaculis. Urna nec tincidunt praesent semper feugiat. Velit ut tortor pretium viverra
+              suspendisse potenti. Dictumst vestibulum rhoncus est pellentesque elit ullamcorper.
+              Nunc mattis enim ut tellus. Pellentesque sit amet porttitor eget dolor. Habitasse
+              platea dictumst vestibulum rhoncus est pellentesque elit. Ac turpis egestas maecenas
+              pharetra convallis. Purus semper eget duis at tellus. Sagittis aliquam malesuada
+              bibendum arcu. Dolor purus non enim praesent elementum facilisis. Suspendisse sed nisi
+              lacus sed viverra tellus in hac habitasse. Egestas sed sed risus pretium quam
+              vulputate dignissim. Nulla at volutpat diam ut venenatis tellus in.
+              <q>
+                Lacus vel facilisis volutpat est velit. Nisi est sit amet facilisis magna etiam
+                tempor orci eu.
+              </q>
+              Malesuada fames ac turpis egestas. Magna eget est lorem ipsum.
+            </p>
+          </section>
+          <section>
+            <h2>Sub title</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Adipiscing elit duis tristique
+              sollicitudin nibh sit amet commodo. Adipiscing elit ut aliquam purus sit amet.
+              Maecenas volutpat blandit aliquam etiam erat velit scelerisque. Tincidunt dui ut
+              ornare lectus sit amet est. Proin libero nunc consequat interdum. Habitant morbi
+              tristique senectus et netus. Non tellus orci ac auctor augue mauris. In est ante in
+              nibh mauris. Nisl rhoncus mattis rhoncus urna neque viverra justo nec ultrices. Eu sem
+              integer vitae justo. Vulputate mi sit amet mauris commodo quis imperdiet massa. Nulla
+              posuere sollicitudin aliquam ultrices sagittis orci. Ac orci phasellus egestas tellus
+              rutrum tellus pellentesque eu tincidunt. Iaculis eu non diam phasellus vestibulum.
+              Senectus et netus et malesuada fames ac. Orci sagittis eu volutpat odio facilisis
+              mauris.
+            </p>
+            <blockquote>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. In ratione debitis eum
+                facere aliquam commodi sequi quae! At, rem. Suscipit eaque doloribus soluta est
+                dolor esse ipsa inventore neque reprehenderit. Et netus et malesuada fames ac turpis
+                egestas. Ac orci phasellus egestas tellus rutrum tellus pellentesque eu tincidunt.
+                Iaculis eu non diam phasellus vestibulum. Senectus et netus et malesuada fames ac.
+                Orci sagittis eu volutpat odio facilisis mauris.
+              </p>
+            </blockquote>
+            <p>
+              Lobortis feugiat vivamus at augue eget arcu. Odio tempor orci dapibus ultrices in
+              iaculis. Urna nec tincidunt praesent semper feugiat. Velit ut tortor pretium viverra
+              suspendisse potenti. Dictumst vestibulum rhoncus est pellentesque elit ullamcorper.
+              Nunc mattis enim ut tellus. Pellentesque sit amet porttitor eget dolor. Habitasse
+              platea dictumst vestibulum rhoncus est pellentesque elit. Ac turpis egestas maecenas
+              pharetra convallis. Purus semper eget duis at tellus. Sagittis aliquam malesuada
+              bibendum arcu. Dolor purus non enim praesent elementum facilisis. Suspendisse sed nisi
+              lacus sed viverra tellus in hac habitasse. Egestas sed sed risus pretium quam
+              vulputate dignissim. Nulla at volutpat diam ut venenatis tellus in. Lacus vel
+              facilisis volutpat est velit. Nisi est sit amet facilisis magna etiam tempor orci eu.
+              Et netus et malesuada fames ac turpis egestas. Malesuada fames ac turpis egestas.
+              Magna eget est lorem ipsum.
+            </p>
+          </section>
+          <section>
+            <h2>Sub title</h2>
+            <p>
+              Lorem ipsum <b>dolor sit</b> amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Adipiscing elit duis tristique
+              sollicitudin nibh sit amet commodo. Adipiscing elit ut aliquam purus sit amet.
+              Maecenas volutpat blandit aliquam etiam erat velit scelerisque. Tincidunt dui ut
+              ornare lectus sit amet est. Proin libero nunc consequat interdum. Habitant morbi
+              tristique senectus et netus. Non tellus orci ac auctor augue mauris. In est ante in
+              nibh mauris. Nisl rhoncus mattis rhoncus urna neque viverra justo nec ultrices. Eu sem
+              integer vitae justo. Vulputate mi sit amet mauris commodo quis imperdiet massa. Nulla
+              posuere sollicitudin aliquam ultrices sagittis orci.
+              <strong>
+                orci phasellus egestas tellus rutrum tellus pellentesque eu tincidunt. Iaculis eu
+                non diam phasellus vestibulum. Senectus et netus et malesuada fames ac.</strong
+              >
+              Orci sagittis eu volutpat odio facilisis mauris.
+            </p>
+            <p>
+              Lobortis feugiat vivamus at augue eget arcu. Odio tempor orci dapibus ultrices in
+              iaculis. Urna nec tincidunt praesent semper feugiat. Velit ut tortor pretium viverra
+              suspendisse potenti. Dictumst vestibulum rhoncus est pellentesque elit ullamcorper.
+              <em>
+                mattis enim ut tellus. Pellentesque sit amet porttitor eget dolor. Habitasse platea
+                dictumst vestibulum rhoncus est pellentesque elit. Ac turpis egestas maecenas
+                pharetra convallis. Purus semper eget duis at tellus.
+              </em>
+              aliquam malesuada bibendum arcu. Dolor purus non enim praesent elementum facilisis.
+              Suspendisse sed nisi lacus sed viverra tellus in hac habitasse. Egestas sed sed risus
+              pretium quam vulputate dignissim. Nulla at volutpat diam ut venenatis tellus in. Lacus
+              vel facilisis volutpat est velit. Nisi est sit amet facilisis magna etiam tempor orci
+              eu. Malesuada fames ac turpis egestas. Magna eget est lorem ipsum.
+            </p>
+            <figure class="image">
+              <img class="image__img" src="../../img/P1040476_small.jpg" alt="Me on rock" />
+              <figcaption class="image__caption">Me on rock</figcaption>
+            </figure>
+            <p>
+              Sed viverra tellus in hac habitasse platea. Adipiscing enim eu turpis egestas pretium
+              aenean pharetra. Etiam sit amet nisl purus in mollis. Fringilla ut morbi tincidunt
+              augue interdum velit euismod in pellentesque. Ipsum dolor sit amet consectetur. Et
+              malesuada fames ac turpis. Tellus elementum sagittis vitae et. Interdum varius sit
+              amet mattis vulputate enim. Sed augue lacus viverra vitae congue. Amet commodo nulla
+              facilisi nullam vehicula ipsum a. Malesuada proin libero nunc consequat. Mattis enim
+              ut tellus elementum sagittis vitae et leo duis. Urna et pharetra pharetra massa massa
+              ultricies mi quis hendrerit. Sed lectus vestibulum mattis ullamcorper. Condimentum id
+              venenatis a condimentum vitae. Nisl suscipit adipiscing bibendum est ultricies integer
+              quis. Tempus egestas sed sed risus. Libero id faucibus nisl tincidunt eget nullam.
+              Neque gravida in fermentum et sollicitudin ac. Semper eget duis at tellus at urna
+              condimentum. Amet mattis vulputate enim nulla aliquet porttitor lacus luctus accumsan.
+              Justo donec enim diam vulputate ut pharetra. Felis eget velit aliquet sagittis. Tellus
+              elementum sagittis vitae et leo duis ut. Sed euismod nisi porta lorem mollis aliquam.
+              Arcu risus quis varius quam quisque id diam vel. Metus dictum at tempor commodo.
+              Tempor orci dapibus ultrices in iaculis nunc. Phasellus faucibus scelerisque eleifend
+              donec pretium vulputate sapien nec sagittis. Cras sed felis eget velit aliquet
+              sagittis id consectetur. Dui vivamus arcu felis bibendum ut tristique et egestas.
+              Volutpat commodo sed egestas egestas fringilla phasellus.
+            </p>
+          </section>
+          <section>
+            <h3 class="aside__header">Share article</h3>
+            <ul class="aside__list social-list">
+              <li class="aside__list--social">
+                <a href="#"><img src="../../img/facebook.png" /></a>
+              </li>
+              <li class="aside__list--social">
+                <a href="#"><img src="../../img/twitter.png" /></a>
+              </li>
+              <li class="aside__list--social">
+                <a href="#"><img src="../../img/linkedin.png" /></a>
+              </li>
+            </ul>
+          </section>
         </article>
-    </main>
-    <footer>
-        <p>© 2020 uncleglass</p>
-    </footer>
-</body>
-
+      </main>
+      <footer class="footer">
+        <p>©2020 uncleglass</p>
+        <p>
+          Icons made by
+          <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
+          from
+          <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+        </p>
+      </footer>
+    </div>
+  </body>
 </html>
